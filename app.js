@@ -11,7 +11,8 @@ app.set('view engine', 'handlebars' )
 
 app.get('/', (req, res)=>{
   res.render('index',{
-    greeting: "Welcome to my Home Page"
+    greeting: "Welcome to my Home Page",
+    showName: false
   })
 })
 
